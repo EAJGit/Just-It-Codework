@@ -1,0 +1,60 @@
+
+header{
+    background-color: darkblue;
+    color:purple;
+    position: relative;
+}
+ 
+h1{
+    display: inline;
+    margin-left: 10%;
+}
+ 
+header a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 1%;
+}
+ 
+header a:hover{
+    background-color:purple;
+    color:aliceblue;
+    border-radius: 5%;
+}
+ 
+nav{
+    display: inline;
+    margin-left: 7%;
+}
+
+
+
+img{ 
+    width: 150px; 
+    height: 150px; 
+}
+
+#submenu{
+    position:fixed;
+    right:1000px;
+    background-color: darkblue;
+    width:125px;
+}
+ 
+#submenu a{
+    color:white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 1%;
+}
+ 
+#submenu a:hover{
+    background-color:goldenrod;
+    color:aliceblue;
+    border-radius: 5%;
+}
+
+body{
+    background-color: darkorchid;
+}

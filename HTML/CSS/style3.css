@@ -1,0 +1,28 @@
+
+:root {
+    --color-one: #3f84e5;
+    --color-two: #b33951;
+    --margin: 10px;
+    --padding: 10px;
+    --sandstorm:#f6ca98 ;
+}
+
+/* We can use our variables by passing the the relevant CSS property a value of var(--varaible-name) */
+
+.one {
+    background-color: var(--color-one);
+    color: var(--color-two);
+    margin: var(--margin);
+    padding: var(--padding);
+}
+
+/* We can still use standard CSS alongside a CSS variable */
+/* We can also declare a new value for our variable if needed and it is overwritten in our chosen instance  */
+.two {
+    /* --color-two: black; */
+    background-color: var(--color-two);
+    color: var(--color-one);
+    margin: var(--margin);
+    padding: var(--padding);
+
+}

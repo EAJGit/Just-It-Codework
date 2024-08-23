@@ -1,0 +1,106 @@
+
+
+.fade {
+
+  
+    font-size: 5em;
+    text-align: left;
+    color:white;
+    margin: 100px;
+    padding: 150px;
+    animation-name: faze;
+    animation-duration: 5s;
+  
+}
+
+@keyframes faze {
+    from{opacity: 0.1;}
+    to{opacity: 0.5;}
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    
+    color: white;
+}
+  
+  body {
+    min-height: 100vh;
+    background-image: url('/HTML/media/JN.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+
+}
+
+nav {
+    background-color: rgb(84, 169, 190);
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1,);
+  font-weight: bold;
+  font-family: Georgia, serif;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+nav a:hover{
+    background-color: lightgrey;
+}
+
+nav li:first-child{
+    margin-right:auto;
+}
+
+.sidebar {
+
+position: fixed;
+top: 0;
+right: 0;
+height: 100vh;
+width: 250px;
+z-index: 999;
+background-color: rgb(84, 169, 190, 0.7);
+backdrop-filter: blur(10px);
+box-shadow: -10px 0 10px rgba(0,0,0.1);
+display: none;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+}
+
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+

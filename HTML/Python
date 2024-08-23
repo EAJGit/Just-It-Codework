@@ -1,0 +1,34 @@
+print("Hello World")
+print('Goodbye')
+print(2+2)
+print("2+2")
+print('The answer to 2+2=', 2+2)
+print('My name is','name')
+print('My name is \'name\'')
+
+greeting ='Good Morning!'
+num1 =10
+
+print(greeting, num1)
+print(greeting, 'agent', num1)
+print(greeting, '\nagent', num1)
+
+name ='Edmund'
+print(name)
+
+age = 30
+city = 'London'
+
+print(f'My name is {name} I am {age} years old and i live in {city}')
+
+
+#x = input('Enter your name:')
+#y = input ('Enter your age:')
+#z = input ('Enter your city')
+#print(f'Hello, your name is {x} you are {y} years old and you live in {z}') 
+
+ num = int(input('Give me a number:'))
+y = int(input('Give me a second number:'))
+
+print (f'The two numbers added together are{num1} +{num2}')
+           

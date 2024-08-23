@@ -8,7 +8,50 @@
     <link rel="stylesheet" href="/HTML/CSS/calc.css">
 </head>
 <body>
-    <div id="calc">
+ 
+    <nav>
+        <ul class="sidebar">
+        
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a href="origin.html">Ed's Website</a></li>
+            <li><a href="calc.html">Calculator Project</a></li>
+            <li><a href="#">Other Projects</a></li>
+            <li><a href="originabout.html">About Me</a></li>
+            <li><a href="mailto:allvaldi@outlook.com">Contact Me</a></li>
+            
+            
+        </ul>
+        <ul>
+            <li><a href="origin.html">Ed's Website</a></li>
+            <li><a href="calc.html">Calculator Project</a></li>
+            <li><a href="#">Other Projects</a></li>
+            <li><a href="originabout.html">About Me</a></li>
+            <li><a href="mailto:allvaldi@outlook.com">Contact Me</a></li>
+            
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+</ul>        
+    </nav>
+
+      <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
+
+
+      </script>
+     
+     <audio controls autoplay>
+        <source src="/HTML\media\calmrain.wav"   type="audio/wav">
+     </audio>
+     <section>
+ <div id="calc">
     <input id="screen" randomly>
     <div id="numbers">
         <button onclick="appendToScreen('7')">7</button>
@@ -30,5 +73,8 @@
         <button onclick="calculate()"class="equal">=</button>
        <button onclick="clearScreen()" class="clear">CE</button>
     </div>
+   
+</div> </section>
+
 </body>
 </html>
